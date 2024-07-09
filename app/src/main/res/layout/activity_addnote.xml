@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient1"
+    tools:context=".addnote">
+
+    <TextView
+        android:id="@+id/AddHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_data"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:fontFamily="@font/freedom"
+        android:textSize="34sp"
+        />
+    <ImageView
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/AddHeading"
+        android:layout_marginEnd="6dp"
+        />
+    <EditText
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/AddHeading"
+        android:fontFamily="@font/opensans"
+        android:background="@drawable/border"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/contentTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/opensans"
+        android:hint="@string/enter_description"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textColorHint="@color/white"
+        android:background="@drawable/border"
+        android:layout_below="@+id/titleTxt"
+        android:layout_marginTop="12dp"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notes-ify</string>
+    <string name="add_data">Add Data</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="notes">Notes</string>
+    <string name="notesify" />
+    <string name="notes_ify">Notes-ify</string>
+    <string name="title_1">Title</string>
+    <string name="content_1">Content</string>
+    <string name="edit_note">Edit Note</string>
+</resources>

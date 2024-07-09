@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient1"
+    android:padding="16dp"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:id="@+id/EditHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/edit_note"
+        android:textColor="@color/green"
+        android:fontFamily="@font/freedom"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        />
+    <ImageView
+        android:id="@+id/updatesaveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/EditHeading"
+        android:layout_marginEnd="6dp"
+        />
+    <EditText
+        android:id="@+id/edittitleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/EditHeading"
+        android:background="@drawable/border"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:fontFamily="@font/opensans"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        />
+    <EditText
+        android:id="@+id/editcontentTxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/enter_description"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:fontFamily="@font/opensans"
+        android:background="@drawable/border"
+        android:layout_below="@+id/edittitleTxt"
+        android:layout_marginTop="12dp"
+
+        />
+
+
+</RelativeLayout>
